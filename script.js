@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", (event) => {
+function handleRegistration() {
     const form = document.getElementById("registration-form") 
 
     const feedbackDiv = document.
@@ -48,4 +48,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
              feedbackDiv.style.color = "#dc3545"
         } 
     })
- })
+}
+
+document.addEventListener("DOMContentLoaded", handleRegistration)
